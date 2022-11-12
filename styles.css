@@ -40,6 +40,10 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
 
+section{
+    padding: 5rem 10%;
+}
+
 .header{
     position: sticky;
     top: 0;
