@@ -77,4 +77,56 @@ section{
     font-size: 2.5rem;
     cursor: pointer;
     color: var(--black);
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 1200px){
+    secton{
+        padding: 3rem 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    html{
+        font-size: 55%;
+    }
+
+    secton {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background-color: var(--white);
+        border-top: var(--border);
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
 }
